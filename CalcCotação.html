@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando a cotação</title>
+</head>
+<body>
+    <strong><h1>Vamos converter reais para dólares!</h1></strong>
+    <script>
+        let reais = prompt('Quantos reais você tem? (R$)')
+        reais = Number(reais)
+        let CotaçãoDólar = 5
+        resultado = reais / CotaçãoDólar
+        alert(`Você tem ${reais.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})}, que convertendo pra dólar fica ${resultado.toLocaleString('pt-br', {style: 'currency', currency: 'USD'})}`)
+    </script>
+</body>
+</html>
