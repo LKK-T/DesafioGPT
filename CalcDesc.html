@@ -7,7 +7,14 @@
 </head>
 <body>
     <Script>
-        
+        let nomeproduto = prompt('qual o produto que quer calcular o desconto?')
+        let valorinicial = Number(prompt('qual o preço original do produto?'))
+        let desconto = Number(prompt(`qual o desconto do ${nomeproduto}`))
+        let valor1 =  desconto * valorinicial
+        let valorfinal1 = valor1 / 100
+        let valorfinal2 = valorfinal1.toFixed(2)
+        alert(`O produto ${nomeproduto} que custava R$${valorinicial}, com desconto de ${desconto}%, vai custar R$${valorfinal2}!`)
+
     </Script>
 </body>
 </html>
