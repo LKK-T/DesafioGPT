@@ -12,7 +12,7 @@ Este repositório contém soluções para desafios de **HTML**, **CSS** e **Java
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/cumprindo-desafios.git
+    git clone https://github.com/LKK-T/DesafioGPT
     ```
 
 2. Abra os arquivos HTML no seu navegador para testar.
